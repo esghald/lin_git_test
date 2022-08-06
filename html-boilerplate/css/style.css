@@ -3,6 +3,7 @@ body
     background-image: url(../img/spiration-light.webp);
     color: #000;
     font-size: 21px;
+    font-style: normal;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
 }
 h1
@@ -27,6 +28,12 @@ a:hover, a:focus
 {
     color: green;
     cursor: none;
+}
+
+strong
+{
+    color: chocolate;
+    text-transform: capitalize;
 }
 
 .primery
