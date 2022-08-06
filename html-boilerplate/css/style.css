@@ -1,0 +1,85 @@
+body
+{
+    background-image: url(../img/spiration-light.webp);
+    color: #000;
+    font-size: 21px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+h1
+{
+    font-size: 79px;
+    color: #456FF7;
+}
+
+a:link
+{
+    color: yellow;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: purple;
+    
+}
+
+a:hover, a:focus
+{
+    color: green;
+    cursor: none;
+}
+
+.primery
+{
+    background-color: orange;
+    width: 500px;
+    padding: 1cm;
+    text-align: justify;
+    border-radius: 25px;
+}
+
+.second
+{
+    background-color: red;
+    width: 350px;
+    
+}
+
+span
+{
+    font-family: Arial;
+    font-weight: 900;
+    font-style: italic;
+    color: aqua;
+}
+
+/* css box model */
+
+/*  margine
+    boarders
+    padding
+    */
+
+.box
+{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+    line-height: 1;
+    font-variant-ligatures: contextual;
+    color: beige;
+    
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 75px;
+    /*border-width: 5px;
+    border-color: aqua;
+    border-style: groove;*/
+    border: 50px inset greenyellow;
+    border-radius: 25px;
+
+    padding: 25px;
+}
